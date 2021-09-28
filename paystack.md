@@ -4,7 +4,8 @@
 
 - [Initiate a charge on a card](#initiate-a-charge-on-a-card)
   - [Charge with Card number and pin](#charge-with-card-number-and-pin)
-  - [Initiate charge on a card and pin and/or OTP will be sent separately](initiate-charge-on-a-card-and-pin-and/or-otp-will-be-sent-separately)
+  - [Initiate charge on a card and pin and/or OTP will be sent separately](#initiate-charge-on-a-card-and-pin-and/or-otp-will-be-sent-separately)
+  - [Send PIN to complete a charge or go to next step](#send-pin-to-complete-a-charge-or-go-to-next-step)
 
 #### Initiate a charge on a card
 

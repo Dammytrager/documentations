@@ -9,7 +9,7 @@
 
 If a card is to be charged, paystack provides apis that makes this possible, this could be done in several ways.
 
-###### 1. Charge with Card number and pin
+###### Charge with Card number and pin
 
 The card will be charged with the card pin sent along with the post data and the card will be debited as soon as paystack returns a success. The request sample is shown below
 

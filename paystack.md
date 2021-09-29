@@ -84,7 +84,7 @@ The charge endpoint will be called with the card details and paystack will respo
 
 #### Send PIN to complete a charge or go to next step
 
-The submit pin endpoint is a next step from the [inititiate charge](initiate-charge-on-a-card-and-pin-and/or-otp-will-be-sent-separately) endpoint, the pin of the card that a charge was initaite on and the transaction reference will be sent to paystack, if the card requires an otp or other forms of confirmation after the pin  it will be in the `data.status` respone from paystack
+The submit pin endpoint is a next step from the [inititiate charge](#initiate-charge-on-a-card-and-pin-and/or-otp-will-be-sent-separately) endpoint, the pin of the card that a charge was initaite on and the transaction reference will be sent to paystack, if the card requires an otp or other forms of confirmation after the pin  it will be in the `data.status` respone from paystack
 
 [paystack](https://paystack.com/docs/api/#charge-submit-pin)
 

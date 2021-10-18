@@ -13,6 +13,8 @@
 
 If a card is to be charged, paystack provides apis that makes this possible, this could be done in several ways.
 
+
+
 #### Charge with Card number and pin
 
 The card will be charged with the card pin sent along with the post data and the card will be debited as soon as paystack returns a `success` in the `data.status` response. The request sample is shown below.
@@ -46,6 +48,8 @@ The card will be charged with the card pin sent along with the post data and the
   "pin": "1111"
 }
 ```
+
+
 
 
 
@@ -84,6 +88,8 @@ The charge endpoint will be called with the card details and paystack will respo
 
 
 
+
+
 #### Send PIN to complete a charge or go to next step
 
 The submit pin endpoint is a next step from the [inititiate charge](#initiate-charge-on-a-card-and-pin-and-otp-will-be-sent-separately) endpoint, the pin of the card that a charge was initaited on and the transaction reference will be sent to paystack, if the card requires an otp or other forms of confirmation after the pin it will be in the `data.status` response from paystack (e.g, `send_otp`). If the card does not require any next step, the card will be debited and paystack will return a success in the `data.status` response.
@@ -103,6 +109,8 @@ The submit pin endpoint is a next step from the [inititiate charge](#initiate-ch
 
 
 
+
+
 #### Send OTP to complete a charge or go to next step
 
 The send otp endpoint is a next step from the [send pin](#send-pin-to-complete-a-charge-or-go-to-next-step) endpoint, the otp paystack sent to the client for the card to be charged and the transaction reference will be sent to paystack, If the card does not require any next step, the card will be debited and paystack will return a success in the `data.status` response.
@@ -119,6 +127,8 @@ The send otp endpoint is a next step from the [send pin](#send-pin-to-complete-a
     "reference": "new_ref"
 }
 ```
+
+
 
 
 

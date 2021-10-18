@@ -38,20 +38,6 @@ kill -9 <PID>
 
 
 
-##### BOLD
-
-Branch Opportunity to Learn and Develop
-
-
-
-##### VOORAS
-
-Very Official Random Act of Kindness
-
-##### Lastpass
-
-A2444666668888888z!
-
 #### Installing wkhtmltopdf
 
 ```bas

@@ -6,6 +6,7 @@ Api::WalletsController.find_or_create_investment_account(user: user)
 user.fake_customer_upload :selfie
 user.fill_primary_financial_account
 
+
 provider = PaystackBvnReportCreatedKycHelper.send(:identity_provider, user).to_s
 bvn_report = user.identity_reports.find_by(identity_type: :BVN, identity_provider: provider) || FactoryGirl.create(:identity_report, identity_provider: provider, identity_type: :BVN, requestor: user)
 bvn_report.update(

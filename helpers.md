@@ -14,6 +14,14 @@ kill -9 <PID>
 
 
 
+##### Decode base64 from file
+
+```bash
+cat <path_to_base_64_file> | base64 -d > <path_to_output_file>
+```
+
+
+
 ##### Bye bug doc
 
 [https://github.com/deivid-rodriguez/byebug](https://github.com/deivid-rodriguez/byebug)

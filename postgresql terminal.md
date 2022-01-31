@@ -40,6 +40,12 @@ pg_ctl status
 pg_ctl start
 ```
 
+```bash
+pg_ctl start -D <data-directory>
+```
+
+
+
 ###### stop
 
 ```bash
